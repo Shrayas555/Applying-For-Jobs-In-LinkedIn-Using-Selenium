@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 import time
-PHONE='9840913995'
+PHONE='YOUR NUMBER'
 driver=webdriver.Chrome(executable_path='/Users/shrayasraju/Desktop/chromedriver')
 action=ActionChains(driver)
 driver.get('https://www.linkedin.com/home')
